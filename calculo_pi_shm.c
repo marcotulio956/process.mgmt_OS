@@ -7,7 +7,7 @@
 #include <sys/mman.h>
 #include <unistd.h>
 
-#define BILLION 1000000000.0
+#define BILLION 1000000000.0 //for steps
 
 int producer(int id, int num_processes){
  printf("\tSou o proc[%d] (%d)  executando producer\n", getpid(), id);
